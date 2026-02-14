@@ -1,5 +1,5 @@
-import logo from "/logo.jpg";
+import client1 from "./client1.jpeg";
 
 export const assets = {
-  logo,
+  client1,
 };
