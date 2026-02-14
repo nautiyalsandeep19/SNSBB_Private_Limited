@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
 import { assets } from "../../assets/assets";
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
     { name: "Services", to: "/services" },
     { name: "Clients", to: "/clients" },
     { name: "Network Coverage", to: "/networkcoverage" },
-    { name: "Industries We Serve", to: "/industries" },
+    { name: "Industries We Serve", to: "/industriesweserve" },
     { name: "Our Gallery", to: "/gallery" },
   ];
 
@@ -30,13 +31,19 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">
             {navLinks.map((link) => (
-              <Link
+              <NavLink
                 key={link.name}
                 to={link.to}
-                className="px-4 py-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 font-medium"
+                className={({ isActive }) =>
+                  `px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
+                    isActive
+                      ? " text-blue-600"
+                      : "text-gray-700 hover:text-blue-600 "
+                  }`
+                }
               >
                 {link.name}
-              </Link>
+              </NavLink>
             ))}
           </div>
 
@@ -44,7 +51,7 @@ const Navbar = () => {
           <div className="hidden lg:block">
             <Link
               to="/contact"
-              className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-300 shadow-lg"
+              className="px-6 py-3 bg-gradient-to-b from-[#0B1C2D] via-[#0E2F4F] to-[#0a1a23] text-white rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-300 shadow-lg"
             >
               Contact Us
             </Link>
@@ -100,7 +107,7 @@ const Navbar = () => {
             <Link
               to="/contact"
               onClick={() => setIsOpen(false)}
-              className="mx-4 mt-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-semibold text-center hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg"
+              className="mx-4 mt-2 px-6 py-3 bg-gradient-to-b from-[#0B1C2D] via-[#0E2F4F] to-[#0a1a23] text-white rounded-lg font-semibold text-center hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg"
             >
               Contact Us
             </Link>
