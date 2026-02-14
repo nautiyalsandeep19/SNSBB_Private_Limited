@@ -137,7 +137,7 @@ const Home = () => {
           {/* Floating stats */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl">
             {[
-              { value: "50+", label: "Cities" },
+              { value: "15+", label: "Cities" },
               { value: "99.9%", label: "Uptime" },
               { value: "24/7", label: "Support" },
               { value: "100+", label: "Customers" },
@@ -431,7 +431,7 @@ const Home = () => {
             Experience Lightning-Fast Internet Today
           </h2>
           <p className="text-xl text-blue-100 mb-10">
-            Join 10,000+ happy customers across Gujarat
+            Join 100+ happy customers across Gujarat
           </p>
           <button className="bg-white text-blue-700 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all shadow-2xl hover:scale-105">
             Get Connected Now →
