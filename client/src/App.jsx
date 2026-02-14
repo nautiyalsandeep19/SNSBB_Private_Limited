@@ -8,6 +8,8 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Clients from "./pages/Clients";
 import IndustriesWeServe from "./pages/IndustriesWeServe";
+import Network from "./pages/Network";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/clients" element={<Clients />} />
-          <Route path="/industries" element={<IndustriesWeServe />} />
+          <Route path="/networkcoverage" element={<Network />} />
+          <Route path="/industriesweserve" element={<IndustriesWeServe />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </main>
 

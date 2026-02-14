@@ -15,7 +15,7 @@ function AutoTestimonials() {
     },
     {
       name: "Priya Sharma",
-      location: "Business Owner",
+      location: "Bussiness Owner",
       initials: "PS",
       review:
         "Our office connectivity has improved drastically. Zero downtime and amazing customer support team!",
@@ -51,7 +51,7 @@ function AutoTestimonials() {
         </p>
 
         <div className="flex items-center justify-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold">
+          <div className="w-12 h-12 bg-gradient-to-b from-[#0B1C2D] via-[#0E2F4F] to-[#0a1a23] rounded-full flex items-center justify-center text-white font-bold">
             {activeTestimonial.initials}
           </div>
           <div className="text-left">
@@ -122,22 +122,10 @@ const Home = () => {
             </span>
           </p>
 
-          <div className="mt-10 flex flex-wrap gap-4 justify-center">
-            <button className="group bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold shadow-lg shadow-blue-500/30 transition-all hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105">
-              Get Connection
-              <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">
-                →
-              </span>
-            </button>
-            <button className="border-2 border-blue-400/50 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-500/10 hover:border-blue-400 transition-all backdrop-blur-sm">
-              Contact Sales
-            </button>
-          </div>
-
           {/* Floating stats */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl">
             {[
-              { value: "50+", label: "Cities" },
+              { value: "15+", label: "Cities" },
               { value: "99.9%", label: "Uptime" },
               { value: "24/7", label: "Support" },
               { value: "100+", label: "Customers" },
@@ -232,7 +220,7 @@ const Home = () => {
       </section>
 
       {/* ================= COVERAGE SECTION ================= */}
-      <section className="py-24 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white relative overflow-hidden">
+      <section className="py-24 bg-gradient-to-b from-[#0B1C2D] via-[#0E2F4F] to-[#0a1a23] text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -424,18 +412,18 @@ const Home = () => {
       </section>
 
       {/* ================= CTA SECTION ================= */}
-      <section className="py-24 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white relative overflow-hidden">
+      <section className="py-24 bg-gradient-to-b from-[#0B1C2D] via-[#0E2F4F] to-[#0a1a23] text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1),transparent_50%)]"></div>
         <div className="relative z-10 text-center max-w-3xl mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Experience Lightning-Fast Internet Today
           </h2>
           <p className="text-xl text-blue-100 mb-10">
-            Join 10,000+ happy customers across Gujarat
+            Join 100+ happy customers across Gujarat
           </p>
-          <button className="bg-white text-blue-700 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all shadow-2xl hover:scale-105">
+          {/* <button className="bg-white text-blue-700 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all shadow-2xl hover:scale-105">
             Get Connected Now →
-          </button>
+          </button> */}
         </div>
       </section>
 

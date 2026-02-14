@@ -85,10 +85,10 @@ const features = [
   },
   {
     icon: Award,
-    title: "ISO 9001:2015 Certified",
-    desc: "Internationally recognized quality management and service excellence standards",
+    title: "IP1 Gov. Certified",
+    desc: "Government-recognized IP1 certification ensuring compliance with official standards and regulatory excellence",
     color: "purple",
-    metric: "ISO Cert",
+    metric: "IP1 Certified",
   },
   {
     icon: Users,
@@ -504,55 +504,6 @@ export default function About() {
                   unwavering commitment to quality, we are building the digital
                   backbone of tomorrow's connected world.
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="relative py-32 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="relative group">
-            <div className="relative bg-gradient-to-br from-blue-950/50 via-purple-950/50 to-pink-950/50 border border-white/20 rounded-3xl p-16 md:p-20 text-center backdrop-blur-2xl">
-              <h2 className="font-display text-5xl md:text-6xl font-black mb-6 leading-tight">
-                Ready to elevate your{" "}
-                <span className="text-gradient">
-                  connectivity infrastructure?
-                </span>
-              </h2>
-              <p className="text-white/70 text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
-                Join 50+ leading enterprises across Gujarat trusting SNSBB
-                Telemedia for mission-critical fibre infrastructure
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="group inline-flex items-center justify-center gap-3 px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl font-bold text-lg hover:shadow-2xl hover:shadow-cyan-500/50 hover:scale-105 transition-all duration-300">
-                  Get Started Today
-                  <ArrowRight
-                    size={20}
-                    className="group-hover:translate-x-1 transition"
-                  />
-                </button>
-                <button className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-white/5 border border-white/20 rounded-2xl font-semibold text-lg hover:bg-white/10 hover:border-white/30 transition-all duration-300">
-                  <Phone size={20} />
-                  Schedule a Call
-                </button>
-              </div>
-
-              {/* Contact Info */}
-              <div className="mt-12 pt-8 border-t border-white/10 flex flex-wrap justify-center gap-8 text-sm text-white/60">
-                <div className="flex items-center gap-2">
-                  <Mail size={16} className="text-cyan-400" />
-                  <span>snsbbtelemedia@gmail.com</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone size={16} className="text-purple-400" />
-                  <span>+91 9825289065</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <MapPin size={16} className="text-pink-400" />
-                  <span>Ahmedabad, Gujarat</span>
-                </div>
               </div>
             </div>
           </div>

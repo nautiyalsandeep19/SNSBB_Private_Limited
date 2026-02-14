@@ -224,9 +224,9 @@ export default function Services() {
           {/* Stats Bar */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
             {[
-              { value: "99.99%", label: "Uptime SLA" },
-              { value: "<2hrs", label: "Response Time" },
-              { value: "400G", label: "Max Capacity" },
+              { value: "99.95%", label: "Uptime SLA" },
+              { value: "<4hrs", label: "Response Time" },
+              { value: "50+", label: "Cities" },
               { value: "24/7", label: "Support" },
             ].map((stat, i) => (
               <div
@@ -246,28 +246,6 @@ export default function Services() {
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* CTA Section */}
-          <div className="relative">
-            <div className="absolute inset-0  rounded-3xl opacity-20 blur-3xl"></div>
-            <div className="relative border border-white/20 rounded-3xl p-12 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl text-center">
-              <h2 className="text-4xl md:text-5xl font-black mb-4 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent">
-                Ready to Accelerate?
-              </h2>
-              <p className="text-white/60 text-lg mb-8 max-w-2xl mx-auto">
-                Connect with our fiber engineering team to design your custom
-                infrastructure solution
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-white/90 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-white/20">
-                  <Link to={"/contact"}> Schedule Consultation</Link>
-                </button>
-                <button className="px-8 py-4 border border-white/30 text-white rounded-full font-bold hover:bg-white/10 transition-all duration-300">
-                  View Network Map
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
