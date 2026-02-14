@@ -6,6 +6,7 @@ import client5 from "./Client5.png";
 import client6 from "./Client6.png";
 import client7 from "./Client7.png";
 import client8 from "./Client8.png";
+import logo from "./snsbb_logo.png";
 // import client9 from "./Client9.png";
 
 export const assets = {
@@ -17,5 +18,6 @@ export const assets = {
   client6,
   client7,
   client8,
+  logo,
   // client9
-};
+}
