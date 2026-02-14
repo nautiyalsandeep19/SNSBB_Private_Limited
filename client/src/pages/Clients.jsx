@@ -5,29 +5,57 @@ export default function Clients() {
   const clients = [
     {
       number: "01",
-      name: "ABC Technologies",
+      name: "Power Grid Corporation of India Limited",
       logo: assets.client1,
       description: "Enterprise optical fibre leasing for data centers.",
       testimonial: "Reliable connectivity and quick restoration.",
     },
     {
       number: "02",
-      name: "MetroNet Solutions",
-      logo: "https://via.placeholder.com/80",
+      name: "Sify Technologies",
+      logo: assets.client2,
       description: "Point-to-point connectivity across locations.",
       testimonial: "Excellent uptime and support team.",
     },
     {
       number: "03",
-      name: "Skyline Infra",
-      logo: "https://via.placeholder.com/80",
+      name: "RailTel Corporation of India Ltd.",
+      logo: assets.client3,
       description: "Underground fibre infrastructure deployment.",
       testimonial: "Professional telecom infrastructure partner.",
     },
     {
       number: "04",
-      name: "Global IT Hub",
-      logo: "https://via.placeholder.com/80",
+      name: "Kalpatru Project International Limited",
+      logo: assets.client4,
+      description: "Dedicated leased optical fibre connectivity.",
+      testimonial: "Fast link restoration service.",
+    },
+    {
+      number: "05",
+      name: "BlazeNet Ltd.",
+      logo: assets.client5,
+      description: "Dedicated leased optical fibre connectivity.",
+      testimonial: "Fast link restoration service.",
+    },
+    {
+      number: "08",
+      name: "Optimal Telemedia Pvt. Ltd.",
+      logo: assets.client8,
+      description: "Dedicated leased optical fibre connectivity.",
+      testimonial: "Fast link restoration service.",
+    },
+    {
+      number: "07",
+      name: "NXT Digital Limited",
+      logo: assets.client7,
+      description: "Dedicated leased optical fibre connectivity.",
+      testimonial: "Fast link restoration service.",
+    },
+    {
+      number: "06",
+      name: "Chadotar Broadband",
+      logo: assets.client6,
       description: "Dedicated leased optical fibre connectivity.",
       testimonial: "Fast link restoration service.",
     },
@@ -41,7 +69,7 @@ export default function Clients() {
       text: "SNSBB Telemedia provides extremely reliable fibre connectivity with quick link restoration.",
     },
     {
-      name: "Amit Shah",
+      name: "Amit Kumar Shah",
       role: "Network Engineer",
       img: "https://i.pravatar.cc/80?img=2",
       text: "Excellent uptime and maintenance support. Their fibre infrastructure is very stable.",
@@ -62,7 +90,7 @@ export default function Clients() {
 
   const stats = [
     { value: "25+", label: "Clients Served" },
-    { value: "150+", label: "KM Fibre Network" },
+    { value: "500+", label: "KM Fibre Network" },
     { value: "99.9%", label: "Network Uptime" },
     { value: "24/7", label: "Support" },
   ];
@@ -85,11 +113,11 @@ export default function Clients() {
             {clients.map((client, index) => (
               <div
                 key={index}
-                className="group relative rounded-2xl p-[2px] bg-gradient-to-b from-[#0B1C2D] via-[#0E2F4F] to-[#0a1a23] hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300"
+                className="group relative rounded-2xl p-[2px] border hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300"
               >
-                <div className="relative bg-[#0F2A5A]/95 backdrop-blur-xl rounded-2xl p-6 sm:p-8 h-full overflow-hidden">
+                <div className="relative bg-[#1a2f45] backdrop-blur-xl rounded-2xl p-6 sm:p-8 h-full overflow-hidden">
                   {/* Animated background effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                   {/* Card Number */}
                   <div className="absolute right-4 sm:right-6 top-4 sm:top-6 text-5xl sm:text-6xl lg:text-7xl font-bold text-white/5 group-hover:text-white/10 transition-colors">

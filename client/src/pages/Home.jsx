@@ -82,7 +82,7 @@ function AutoTestimonials() {
 
 const Home = () => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden mt-15">
       {/* ================= HERO SECTION ================= */}
       <section className="relative h-screen w-full overflow-hidden bg-gradient-to-b from-[#0B1C2D] via-[#0E2F4F] to-[#0a1a23]">
         {/* Video Background */}
