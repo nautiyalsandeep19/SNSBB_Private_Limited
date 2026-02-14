@@ -169,23 +169,8 @@ export default function About() {
         }
       `}</style>
 
-      {/* Noise Texture Overlay */}
-      {/* <div
-        className="fixed inset-0 opacity-[0.015] pointer-events-none"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E")`,
-        }}
-      ></div> */}
-
       {/* Hero Section */}
       <section className="relative pt-32 pb-24 px-6 grid-pattern">
-        {/* Gradient Orbs */}
-        {/* <div className="absolute top-20 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl animate-pulse-slow"></div>
-        <div
-          className="absolute top-40 right-1/4 w-80 h-80 bg-purple-600/20 rounded-full blur-3xl animate-pulse-slow"
-          style={{ animationDelay: "2s" }}
-        ></div> */}
-
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center space-y-10">
             {/* Badge */}
@@ -201,7 +186,7 @@ export default function About() {
 
             {/* Main Heading */}
             <h1 className="font-display text-7xl md:text-8xl lg:text-9xl font-black tracking-tight">
-              <span className="block text-blue-400">SNSBB Telemedia</span>
+              <span className="block text-white">SNSBB Telemedia</span>
               <span className="block text-2xl md:text-3xl lg:text-4xl font-medium text-white/60 mt-4 tracking-normal">
                 Private Limited
               </span>
@@ -226,7 +211,7 @@ export default function About() {
                   subtext: "Trusted partnerships",
                 },
                 {
-                  num: "50 KM",
+                  num: "500 KM",
                   label: "Fibre Network",
                   subtext: "And expanding",
                 },
