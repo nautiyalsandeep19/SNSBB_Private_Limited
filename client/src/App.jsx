@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/ Footer";
 import Clients from "./pages/Clients";
+import IndustriesWeServe from "./pages/IndustriesWeServe";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/clients" element={<Clients />} />
+          <Route path="/industries" element={<IndustriesWeServe />} />
         </Routes>
       </main>
 
