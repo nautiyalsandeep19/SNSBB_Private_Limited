@@ -85,10 +85,10 @@ const features = [
   },
   {
     icon: Award,
-    title: "ISO 9001:2015 Certified",
-    desc: "Internationally recognized quality management and service excellence standards",
+    title: "IP1 Gov. Certified",
+    desc: "Government-recognized IP1 certification ensuring compliance with official standards and regulatory excellence",
     color: "purple",
-    metric: "ISO Cert",
+    metric: "IP1 Certified",
   },
   {
     icon: Users,

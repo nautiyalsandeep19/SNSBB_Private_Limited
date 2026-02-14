@@ -10,8 +10,9 @@ const Navbar = () => {
     { name: "About", to: "/about" },
     { name: "Services", to: "/services" },
     { name: "Clients", to: "/clients" },
-    { name: "Network Coverage", to: "/coverage" },
+    { name: "Network Coverage", to: "/networkcoverage" },
     { name: "Industries We Serve", to: "/industries" },
+    { name: "Our Gallery", to: "/gallery" },
   ];
 
   return (
